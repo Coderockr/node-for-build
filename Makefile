@@ -1,6 +1,6 @@
 all: build
 
-IMAGE=lojassimonetti/node-for-build
+IMAGE=coderockr/node-for-build
 TAG=$(shell git branch | grep \* | cut -d ' ' -f2)
 
 build:
