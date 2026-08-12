@@ -1,4 +1,4 @@
-FROM node:24.19.0
+FROM node:26.7.0
 
 RUN  apt-get update \
      && apt-get install -y wget gnupg \
